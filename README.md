@@ -125,7 +125,7 @@ Resources created:
 
 ## How to Run the Project
 
-### Step 1: Configure AWS CLI
+Step 1: Configure AWS CLI
 ```bash
 aws configure
 
