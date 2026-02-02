@@ -74,6 +74,7 @@ etl_aws_final_project/
 │
 └── README.md
 
+![peojwctdia](https://github.com/user-attachments/assets/7a0d1c7e-0f98-4f08-b95b-b585e96e44d4)
 
 ---
 
