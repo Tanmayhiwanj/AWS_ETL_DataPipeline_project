@@ -1,0 +1,22 @@
+{
+  "StartAt": "GlueJob1",
+  "States": {
+    "GlueJob1": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": { "JobName": "etl-job-cleaning" },
+      "Next": "GlueJob2"
+    },
+    "GlueJob2": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::glue:startJobRun.sync",
+      "Parameters": { "JobName": "etl-job-aggregation" },
+      "Next": "SendEmail"
+    },
+    "SendEmail": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:ap-south-1:613058600446:function:etl-email-lambda",
+      "End": true
+    }
+  }
+}
