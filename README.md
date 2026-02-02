@@ -42,7 +42,6 @@ Amazon SES (Email Notification)
 
 ---
 
-## Project Structure
 etl_aws_final_project/
 │
 ├── glue_jobs/
