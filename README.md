@@ -42,37 +42,7 @@ Amazon SES (Email Notification)
 
 ---
 
-etl_aws_final_project/
-│
-├── glue_jobs/
-│ ├── job1_cleaning.py
-│ └── job2_aggregation.py
-│
-├── lambda/
-│ └── email_lambda.py
-│
-├── step_functions/
-│ └── state_machine.json
-│
-├── iam/
-│ ├── glue_trust.json
-│ ├── glue_permissions.json
-│ ├── lambda_trust.json
-│ ├── lambda_permissions.json
-│ ├── stepfn_trust.json
-│ └── stepfn_permissions.json
-│
-├── cli/
-│ ├── 01_create_s3.sh
-│ ├── 02_create_iam.sh
-│ ├── 03_create_lambda.sh
-│ ├── 04_create_glue_jobs.sh
-│ └── 05_create_stepfn.sh
-│
-├── data/
-│ └── sales.csv
-│
-└── README.md
+
 
 
 
