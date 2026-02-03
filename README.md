@@ -135,8 +135,9 @@ Resources created:
 
 ## How to Run the Project
 
-Step 1: Configure AWS CLI
+
 ```bash
+Step 1: Configure AWS CLI
 aws configure
 
 Step 2: Create S3 Bucket
